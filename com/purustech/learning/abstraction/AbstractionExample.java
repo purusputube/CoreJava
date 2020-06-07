@@ -14,24 +14,7 @@ public class AbstractionExample {
     }
 }
 
-abstract class Remote{
-    public void switchOffLights(){
-        System.out.println("switch off the room lights");
-    }
-    public abstract void increaseVolume();
-}
 
-class TVRemote extends Remote {
-    public void increaseVolume(){
-        System.out.println("TV Volume increased");
-    }
 
-}
 
-class DTHRemote extends Remote {
-    public void increaseVolume(){
-        System.out.println("DTH device level Volume increased");
-    }
-
-}
 
